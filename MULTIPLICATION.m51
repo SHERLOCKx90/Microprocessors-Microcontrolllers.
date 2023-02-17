@@ -1,0 +1,78 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    02/17/2023  08:46:36  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\multiplication.obj TO .\Objects\MULTIPLICATION PRINT (.\Listings\MULTIPLICATION.m5
+>> 1) RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\multiplication.obj (MULTIPLICATION)
+
+
+LINK MAP OF MODULE:  .\Objects\MULTIPLICATION (MULTIPLICATION)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0035H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\MULTIPLICATION (MULTIPLICATION)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MULTIPLICATION
+  D:00F0H         SYMBOL        B
+  C:0000H         LINE#         65533
+  C:0002H         LINE#         2
+  C:0004H         LINE#         3
+  C:0006H         LINE#         4
+  C:0008H         LINE#         5
+  C:0009H         LINE#         6
+  C:000BH         LINE#         7
+  C:000CH         LINE#         8
+  C:000EH         LINE#         9
+  C:0010H         LINE#         10
+  C:0011H         LINE#         11
+  C:0013H         LINE#         12
+  C:0014H         LINE#         13
+  C:0015H         LINE#         14
+  C:0016H         LINE#         15
+  C:0018H         LINE#         16
+  C:001AH         LINE#         17
+  C:001BH         LINE#         18
+  C:001CH         LINE#         19
+  C:001EH         LINE#         20
+  C:001FH         LINE#         21
+  C:0020H         LINE#         22
+  C:0022H         LINE#         23
+  C:0024H         LINE#         24
+  C:0025H         LINE#         25
+  C:0027H         LINE#         26
+  C:0028H         LINE#         27
+  C:0029H         LINE#         28
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  02/17/2023  08:46:36  PAGE 2
+
+
+  C:002AH         LINE#         29
+  C:002BH         LINE#         30
+  C:002DH         LINE#         31
+  C:002FH         LINE#         32
+  C:0031H         LINE#         33
+  C:0033H         LINE#         34
+  -------         ENDMOD        MULTIPLICATION
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0035H BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=8.0 xdata=0 code=53
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
