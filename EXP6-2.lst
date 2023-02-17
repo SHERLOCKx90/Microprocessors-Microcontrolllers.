@@ -1,0 +1,50 @@
+A51 MACRO ASSEMBLER  EXP6_2                                                               02/17/2023 09:14:59 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\EXP6-2.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE EXP6-2.a51 SET(SMALL) DEBUG PRINT(.\Listings\EXP6-2.lst) OBJECT(.\Objec
+                      ts\EXP6-2.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     ORG 0000H
+0000 74E7              2             MOV A, #0E7H
+0002 248D              3             ADD A, #8DH
+0004 FE                4             MOV R6, A
+0005 743C              5             MOV A, #3CH
+0007 343B              6             ADDC A, #3BH
+0009 FF                7             MOV R7, A
+                       8             END
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+A51 MACRO ASSEMBLER  EXP6_2                                                               02/17/2023 09:14:59 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
