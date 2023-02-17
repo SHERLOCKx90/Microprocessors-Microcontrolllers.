@@ -1,0 +1,3 @@
+".\Objects\exp6-1.obj" 
+TO ".\Objects\MULTIPLICATION" 
+PRINT(".\Listings\MULTIPLICATION.m51") RAMSIZE(256) 
