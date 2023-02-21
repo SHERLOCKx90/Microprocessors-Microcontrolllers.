@@ -1,0 +1,60 @@
+A51 MACRO ASSEMBLER  MULTIPLICATION                                                       02/17/2023 08:46:36 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\multiplication.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE multiplication.a51 SET(SMALL) DEBUG PRINT(.\Listings\multiplication.lst
+                      ) OBJECT(.\Objects\multiplication.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000 7834              1     MOV R0, #34H
+0002 7912              2     MOV R1, #12H
+0004 7A78              3     MOV R2, #78H
+0006 7B56              4     MOV R3, #56H
+0008 E8                5     MOV A, R0
+0009 8AF0              6     MOV B, R2
+000B A4                7     MUL AB
+000C F533              8     MOV 33H, A
+000E ACF0              9     MOV R4, B
+0010 E8               10     MOV A, R0
+0011 8BF0             11     MOV B, R3
+0013 A4               12     MUL AB
+0014 2C               13     ADD A, R4
+0015 FD               14     MOV R5, A
+0016 E5F0             15     MOV A, B
+0018 3400             16     ADDC A, #00H
+001A FE               17     MOV R6, A
+001B E9               18     MOV A, R1
+001C 8AF0             19     MOV B, R2
+001E A4               20     MUL AB
+001F 2D               21     ADD A, R5
+0020 F532             22     MOV 32H, A
+0022 E5F0             23     MOV A, B
+0024 3E               24     ADDC A, R6
+0025 9200             25     MOV 00H, C
+0027 FF               26     MOV R7, A
+0028 EB               27     MOV A, R3
+0029 A4               28     MUL AB
+002A 2F               29     ADD A, R7
+002B F531             30     MOV 31H, A
+002D E5F0             31     MOV A, B
+002F A200             32     MOV C, 00H
+0031 3400             33     ADDC A, #00H
+0033 F530             34     MOV 30H, A
+                      35     END
+A51 MACRO ASSEMBLER  MULTIPLICATION                                                       02/17/2023 08:46:36 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+B. . . . . . . . .  D ADDR   00F0H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
